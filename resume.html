@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+</head>
+
+<body>
+
+
+    <div id="header"></div>
+    <div class="left"></div>
+    <div class="stuff">
+        <br><br>
+        <h1>Resume</h1>
+        <hr />
+        <br>
+        <p class="head">Personal Information</p>
+        <ul>
+            <li>name - Jia Gao</li>
+            <li>Address - xxxx Address</li>
+            <li>DOB - 10/24/1999 </li>
+
+        </ul>
+        <p class="head">Skills</p>
+        <ul>
+            <li>Adequate Level Java</li>
+            <li>Beginner Level Python</li>
+            <li>Beginner Level HTML, CSS and Javescript</li>
+        </ul>
+        <p class="head">Education</p>
+        <ul>
+            <li>Murrow High School</li>
+            <li>Brooklyn College</li>
+            </a>
+
+        </ul>
+        <p class="head">Experience</p>
+        <ul>
+            <li>Head Teacher at CPC</li>
+            <li>Resource Navigator</li>
+            <li>Babysitter</li>
+        </ul>
+        <p class="head">Extracurriculars</p>
+        <ul>
+            <li>Key Club</li>
+            <li>Art Club</li>
+        </ul>
+    </div>
+    <div class="right"></div>
+    <div id="footer">
+    <h2 id="name">Jia Gao</h2>
+    </div>
+
+
+
+    <style>
+
+    * {
+    max-width: 700px;
+    margin: auto;
+    }
+
+
+    body {
+    min-width: 500px;
+    }
+
+    div {
+    border-radius: 5px;
+    }
+
+    #header {
+    height: 40px;
+    width: 100%;
+    background-color: #ffcccc;
+    position: fixed;
+    z-index: 1;
+    }
+
+    #title {
+    margin-left: 3%;
+    }
+
+    #footer {
+    height: 50px;
+    width: 100%;
+    background-color: #ffcccc;
+    clear: both;
+    position: relative;
+    }
+
+    .left {
+    height: 1000px;
+    width: 45px;
+    background-color: #e0eeee;
+    float: left;
+    position: fixed;
+    }
+
+    .right {
+    height: 1000px;
+    width: 45px;
+    background-color: #e0eeee;
+    float: right;
+    position: inherit;
+    }
+
+    .stuff {
+    display: inline-block;
+    margin-top: 6px;
+    margin-left: 55px;
+    width: 75%;
+    height: 1000px;
+    }
+
+    p,
+    li {
+    font-family: 'Cormorant Garamond';
+    }
+
+    .head {
+    font-size: 20px;
+    }
+
+    #name {
+    font-family: Sacramento;
+    float: right;
+    margin-top: 10px;
+    margin-right: 4%;
+    }
+
+    a {
+    color: black;
+    text-decoration: none;
+    }
+
+    @media only screen and (max-width: 430px) {
+    .left,
+    .right {
+    display: none;
+    }
+    .stuff {
+    width: 100%;
+    margin-left: 10px;
+    }
+    }
+    
+    </style>
+</body>
+
+</html>

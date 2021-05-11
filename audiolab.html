@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AudioLab</title>
+
+<style type="text/css">
+    nav#nav1{margin-top: 24px;}
+    nav#nav1 > a {
+        background: #B9E1FF;
+        color:#000;
+        padding: 10px;
+        text-decoration:none;
+        border-radius:5px;
+        font-family:"Arial Black", sans-serif;
+    }
+    nav#nav1 > a:hover{background: #BBEA00;}
+    nav#nav1 > a:active{background: #EEFFA8;}
+</style>
+<script>
+
+    var bear = new Audio();
+    bear.src = "bearroar.wav";
+
+    var dog = new Audio();
+    dog.src = "doggobark.wav";
+
+    var lion = new Audio();
+    lion.src = "lion.wav";
+
+    var retro = new Audio();
+    retro.src = "retro.wav";
+
+    var sweep = new Audio();
+    sweep.src = "sweep.wav";
+    </script>
+</head>
+<body>
+    <nav id="nav1">
+        <a href="#" onmousedown = "bear.play()">Bear</a>
+        <a href="#" onmousedown = "dog.play()">Dog</a>
+        <a href="#" onmousedown = "lion.play()">Lion</a>
+        <a href="#" onmousedown = "retro.play()">Retro</a>
+        <a href="#" onmousedown = "sweep.play()">Sweep</a>
+    </nav>
+    
+
+
+</body>
+</html>
