@@ -1,7 +1,10 @@
 var canvas = document.getElementById("myChart");
 var ctx = canvas.getContext("2d");
 
-
+function drawrect(x, y, length, width, color){
+    ctx.fillStyle = color;
+    ctx.fillRect(x, y, length, width);
+  }
 /*draw text
 text
 font 
@@ -26,6 +29,8 @@ function drawtext(text, font, color, x, y) {
 };
 */
 
+
+
 drawrect(0, 600, 100, -600,'red');
 drawrect(100, 600, 100, -300,'orange');
 drawrect(200, 600, 100, -450,'yellow');
@@ -35,7 +40,7 @@ drawrect(500, 600, 100, -240,'purple');
 
 
 drawtext(20,'20px Arial', 'black', 0,600);
-drawtext('Apple','20px Arial', 'black', 0,575);
+drawtext('Apple','20px Arial', 'black', 0, 575);
 
 drawtext(10,'20px Arial', 'black', 100,600);
 drawtext('Orange','20px Arial', 'black', 100,575);
